@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoş Geldin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="login-screen" class="screen">
+            <input type="text" id="name-input" name="name" placeholder="isminizi yazınız">
+            <button id="start-btn">Giriş yap</button>
+        </div>
+
+        <div id="welcome-screen" class="screen hidden">
+            <h1 id="welcome-message">Hoş Geldin <span id="user-name"></span>!</h1>
+            <div id="clock-container">
+                <div id="clock">00.00:00</div>
+                <div id="date">1 Ocak Pazartesi</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
